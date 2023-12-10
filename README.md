@@ -149,6 +149,10 @@ box_plot = ChartBuilder.BoxPlot()
 
 # Generate a box plot for 'imdb_score'
 box_plot.create_box_plot(df_chart, column='imdb_score', title='IMDb Score Distribution on Netflix')
+<img width="603" alt="Screenshot 2023-12-09 at 10 49 33 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/b8afd4fe-2ac5-4d37-b8c5-15f4ae5858e8">
+
+<img width="751" alt="Screenshot 2023-12-09 at 10 45 53 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/9ce41fcc-6d71-4fe1-8e85-54ba2ce56c84">
+<img width="766" alt="Screenshot 2023-12-09 at 10 48 36 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/017c7a50-0ba6-4f4c-8b35-00d5a01aa1d0">
 
 ##interactive_map.py
 import pandas as pd
@@ -266,6 +270,11 @@ pie_chart = InteractiveMap.PieChart()
 
 # Assuming you have a column 'type' in your dataset with values like 'Movie' and 'TV Show'
 pie_chart.plot_pie_chart(df, names_column='type', values_column='imdb_score', title='Distribution of Movies and shows on Netflix')
+<img width="678" alt="Screenshot 2023-12-09 at 10 44 26 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/647c27c1-b7c9-4170-9a33-72ed5451b931">
+
+<img width="691" alt="Screenshot 2023-12-09 at 10 44 48 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/d2cafa15-649a-4f2d-aeb0-65f5e35e403d">
+
+<img width="724" alt="Screenshot 2023-12-09 at 10 45 15 PM" src="https://github.com/varunkumar98/DataVizToolkit/assets/45570174/89cb8d35-30c8-4cd7-ae71-cd3da4dbbaa4">
 
 ##custom_themes.py
 import pandas as pd
