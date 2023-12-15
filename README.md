@@ -1,5 +1,4 @@
 # DataVizToolkit
-This is an innovative python package designed to revolutionalize the landscape of data visualization within the data science domain.
 In the package, there are 3 modules. They are Chart Builder, Interactive Map, and Custom Themes.
 I have created a main directory - dataviztoolkit. Then, in the subdirectory, I added Project code directory to include the main files for visualizations.
 
