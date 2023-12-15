@@ -1,3 +1,7 @@
+"""
+Classes and functions of InteractiveMap modules is provided in this python files. 
+"""
+
 import pandas as pd
 import plotly.express as px
 
