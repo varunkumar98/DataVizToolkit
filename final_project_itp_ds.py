@@ -43,15 +43,12 @@ pip install plotly
 # Create a Python script file named custom_themes_main.py inside the Project_code subdirectory
 !touch dataviztoolkit/Project_code/custom_themes_main.py
 
-# Commented out IPython magic to ensure Python compatibility.
 # Execute the chart_builder_main.py script located in the Project_code subdirectory
  %run dataviztoolkit/Project_code/chart_builder_main.py
 
-# Commented out IPython magic to ensure Python compatibility.
 # Execute the interactive_map_main.py script located in the Project_code subdirectory
  %run dataviztoolkit/Project_code/interactive_map_main.py
 
-# Commented out IPython magic to ensure Python compatibility.
 # Execute the custom_themes_main.py script located in the Project_code subdirectory
  %run dataviztoolkit/Project_code/custom_themes_main.py
 
