@@ -10,8 +10,14 @@ uploaded = files.upload()
 
 # Create a bar chart
 df_chart = pd.read_csv('Netflix TV Shows and Movies.csv') 
+
+#create bar chart object using a ChartBuilder class
 chart = ChartBuilder.BarChart()
+
+#creating a bar chart
 chart.create_bar_chart(df_chart.head(10), x_axis='imdb_score', y_axis='imdb_votes')
+
+#customizing the colors of the map with the help of 'viridis' color scheme
 chart.custom_colors('viridis')
 
 # Create an instance of BoxPlot
