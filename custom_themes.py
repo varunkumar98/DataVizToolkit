@@ -1,3 +1,7 @@
+"""
+Classes and Functions of CustomThemes modules is provided in this python file.
+"""
+
 # dataviztoolkit/custom_themes.py
 import pandas as pd
 import numpy as np
