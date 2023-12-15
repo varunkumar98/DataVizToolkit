@@ -1,5 +1,6 @@
 """
-Main file of Interactive Map module
+Main file of Interactive Map module - With this module, you can make your visualizations interactive by hovering over the graphs like time series
+chart, pie chart, etc., make it more engaging and provide deeper understanding of the data.
 """
 
 import pandas as pd
