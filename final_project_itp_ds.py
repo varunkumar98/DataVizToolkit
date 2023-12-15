@@ -47,8 +47,6 @@ pip install plotly
 # Execute the chart_builder_main.py script located in the Project_code subdirectory
  %run dataviztoolkit/Project_code/chart_builder_main.py
 
-import pandas as pd
-
 # Commented out IPython magic to ensure Python compatibility.
 # Execute the interactive_map_main.py script located in the Project_code subdirectory
  %run dataviztoolkit/Project_code/interactive_map_main.py
