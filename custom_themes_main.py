@@ -1,5 +1,6 @@
 """
-Main file of Custom Themes module - The functionality of this module is to personalize the look and feel of the graphs 
+Main file of Custom Themes module - The functionality of this module is to personalize the look and feel of the graphs along with its extensive
+customization features makes it flexible and user-friendly.
 """
 
 import pandas as pd
