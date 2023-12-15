@@ -1,5 +1,6 @@
 """
-Main file of Chart Builder
+Main file of Chart Builder - This module is mainly used to create charts and along with its customization features makes it ease of use to 
+non-technical users. 
 """
 
 from dataviztoolkit import ChartBuilder
