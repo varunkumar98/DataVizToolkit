@@ -1,5 +1,5 @@
 """
-Main file of Custom Themes module
+Main file of Custom Themes module - The functionality of this module is to personalize the look and feel of the graphs 
 """
 
 import pandas as pd
