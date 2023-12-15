@@ -1,3 +1,7 @@
+"""
+Main file of Interactive Map module
+"""
+
 import pandas as pd
 from dataviztoolkit.interactive_map import InteractiveMap
 
