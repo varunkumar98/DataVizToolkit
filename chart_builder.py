@@ -1,3 +1,7 @@
+"""
+Classes and functions of ChartBuilder module is provided in this python file.
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
