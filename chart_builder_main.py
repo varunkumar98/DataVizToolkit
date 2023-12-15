@@ -1,3 +1,7 @@
+"""
+Main file of Chart Builder
+"""
+
 from dataviztoolkit import ChartBuilder
 import pandas as pd
 
