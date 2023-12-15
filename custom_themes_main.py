@@ -13,8 +13,6 @@ uploaded = files.upload()
 # Load your dataset
 df = pd.read_csv('Netflix TV Shows and Movies.csv')
 
-# Ensure that 'imdb_score' and 'imdb_votes' are in df
-
 # Filter to include only movies and group by 'release_year'
 movies_per_year = df[df['type'] == 'MOVIE'].groupby('release_year').size()
 
@@ -47,9 +45,8 @@ ax2.set_ylabel('Number of IMDb Votes')
 ax2.grid(True)
 
 # Bar plot 
-# Check if movies_per_year_sorted is not empty
+# Checking if movies_per_year_sorted is not empty
 if not movies_per_year_sorted.empty:
-    # If you want to use a specific color from the seaborn palette
     bar_color = sns.color_palette('deep', len(movies_per_year_sorted)) 
 
     # Plotting the bar plot
